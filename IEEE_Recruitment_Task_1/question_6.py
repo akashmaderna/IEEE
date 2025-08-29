@@ -1,0 +1,50 @@
+a = [
+     ("Pilani", "CS", 327 ),
+     ("Pilani", "Eco", 271),
+     ("Pilani", "Civil", 238),
+     ("Pilani", "Chemical", 247),
+     ("Pilani", "Mechanical", 266),
+     ("Pilani", "E&I", 282),
+     ("Pilani", "EEE", 292),
+     ("Pilani", "ECE", 314),
+     ("Pilani", "MnC", 318),
+     ("Pilani", "Manufac.", 243),
+     ("Pilani", "Maths", 256),
+     ("Pilani", "Physics", 254),
+     ("Pilani", "Chemistry", 241),
+     ("Pilani", "Bio", 236),
+     ("Pilani", "Pharma", 165),
+
+     ("Goa", "CS", 301),
+     ("Goa", "Eco", 263),
+     ("Goa", "Chemical", 239),
+     ("Goa", "Mechanical", 254),
+     ("Goa", "E&I", 270),
+     ("Goa", "EEE", 278),
+     ("Goa", "ECE", 287),
+     ("Goa", "MnC", 295),
+     ("Goa", "Maths", 249),
+     ("Goa", "Physics", 248),
+     ("Goa", "Chemistry", 236),
+     ("Goa", "Bio", 234),
+
+     ("Hyderabad", "CS", 298),
+     ("Hyderabad", "Eco", 261),
+     ("Hyderabad", "Civil", 235),
+     ("Hyderabad", "Chemical", 238),
+     ("Hyderabad", "Mechanical", 251),
+     ("Hyderabad", "E&I", 270),
+     ("Hyderabad", "EEE", 275),
+     ("Hyderabad", "ECE", 284),
+     ("Hyderabad", "MnC", 293),
+     ("Hyderabad", "Maths", 247),
+     ("Hyderabad", "Physics", 245),
+     ("Hyderabad", "Chemistry", 235),
+     ("Hyderabad", "Bio", 234),
+     ("Hyderabad", "Pharma", 161),
+]#list of cutoffs of 2024-25 bitsat
+dicti = {}#declaring an empty dictionary
+for key1, key2, value in a:#declared 3 variable, which will be used as keys and values.
+    inner_dicti = dicti.setdefault(key1, {})#creates a nested dictionary with key1 as main key/college name.
+    inner_dicti[key2]=value#sets key2 as key/branch for nested dictionary and value as cutoff
+print(dicti)#prints the dictionary

@@ -1,4 +1,4 @@
-The given codes should be pasted in an idle editor, and then executed: </br>
+The given codes should be pasted in an idle editor, and then executed : </br>
 - The `1st programme(question_1)` prints n no. of stars starting from 1 to n as per user's input and the stars start ecntering from the right hand side.</br>
 - The `2nd programme(question_2)` prints no. of palindromes in a paragraph entered by the user or a test paragraph for the user to see the functioning of the programme.</br>
 - The `3rd programme(question_3)` prints a randomly generated 5x5 3-D array, then prints its maximum, minimum, mean values, then normalises the matrix,, flattens it to a 2-D array, sorts it and prints the results.</br>
